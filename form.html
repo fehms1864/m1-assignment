@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Local Pet Adoption Service</title>
+    </head>
+    <body>
+
+        <!-- Container to wrap everything -->
+        <div id="bodyContainer">
+
+            <!-- Brand of website -->
+            <header>PetSmart World</header>
+
+            <!-- Main Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li>Gallery</li>
+                    <li>Contact</li>
+                </ul>
+            </nav> <!-- End of Navigation -->
+
+            <!-- Main Content -->
+            <main>
+                <h1>Form</h1>
+                
+                <form action="/signup" method="post">
+                    <fieldset>
+                        <legend>Adoption Form</legend>
+                        <br>
+                        <fieldset>
+                            <legend>User Personal Information</legend>
+                            <label>Enter your full name</label><br>
+                            <input type="text" name="name"><br>
+                            <label>Enter your email</label><br>
+                            <input type="email" name="email"><br>
+                            <label>Enter your phone</label><br>
+                            <input type="text" name="phone"><br>
+
+                            <br><label>Select your Gender</label><br>
+                            <input type="radio" name="gender" value="male" />Male
+                            <input type="radio" name="gender" value="female" />Female <br>
+
+                            <br><label>How should we contact you?</label><br>
+                            <select>
+                                <option>Email</option>
+                                <option>Phone</option>
+                            </select><br>
+
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>Adoption Information</legend>
+                            <label>Type Of Pet</label><br>
+                            <select>
+                                <option>Dog</option>
+                                <option>Cat</option>
+                                <option>Fish</option>
+                                <option>Snake</option>
+                                <option>Rabbit</option>
+                                <option>Horse</option>
+                            </select>
+                            <br>
+                            <label>Pet's Name</label><br>
+                            <input type="text" name="name"><br>
+                            <label>Breed Of Pet</label><br>
+                            <input type="text" name="name"><br>
+
+                            <br><label>Select Pet Gender</label><br>
+                            <input type="radio" name="gender" value="male" />Male
+                            <input type="radio" name="gender" value="female" />Female <br>
+
+                            <br>Describe what traits you are looking for in a pet<br>
+                            <textarea rows="5" cols="30"></textarea><br>
+                            
+                        </fieldset>
+                        <br>Tell us the reason for adopting today:<br>
+                            <textarea rows="5" cols="30"></textarea><br>
+                            <input type="submit" value="sign-up">
+                    </fieldset>
+                </form>
+                <br>
+            </main> <!-- End of Main Content -->
+
+            <!-- Footer Information -->
+            <footer>&copy; Copyright 2024</footer>
+        </div> <!-- End Container -->
+    </body>
+</html>
