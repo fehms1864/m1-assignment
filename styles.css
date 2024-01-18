@@ -1,0 +1,139 @@
+html {
+    background-color: rgba(237, 229, 171, 0.481);
+}
+
+header, footer {
+    background-color: darkgoldenrod;
+    opacity: 50%;
+}
+header {
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+nav {
+    /* background-color: rgba(92, 186, 245, 0.529); */
+    background-color: cornsilk;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: x-large;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 3rem;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+    color: darkblue;
+}
+
+h2, h3 {
+    color: rgb(207, 149, 74);
+}
+
+h3 {
+    font-style: italic;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+img[alt="PetSmart Logo"] {
+    width: 30%;
+}
+img[alt="Adopt A Pet Event"] {
+    width: 60%;
+    height: 500px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin-top: 35px;
+}
+table, caption, th, td {
+    border: 1px solid #000;
+    font-size: large;
+}
+th, td {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+}
+caption {
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px;
+    padding-top: 15px;
+    color: #753a30;
+}
+
+
+form[action="/signup"] {
+    background-color: rgba(252, 239, 136, 0.397);
+    font-size: 25px;
+}
+
+legend {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0 0 0;
+}
+input {
+    width: 600px;
+    height: 30px;
+    margin: 0px;
+}
+input[type="radio"] {
+    width: 25px;
+    margin-right: 10px;
+}
+textarea {
+    width: 900px
+}
+input[type="button"] {
+    background-color: rgba(98, 129, 255, 0.475);
+    display: block;
+    margin: 20px 0 10px 0;
+    width: 100%;
+    font-size: xx-large;
+    height: fit-content;
+}
+input[type="button"]:hover {
+    background-color: rgba(58, 141, 242, 0.906);
+    text-transform: uppercase;
+}
+input[type="button"]:active {
+    background-color: rgba(228, 27, 27, 0.68);
+}
+input[type="button"]:visited {
+    background-color: rgba(56, 255, 112, 0.714);
+}
+
+select {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+
+footer {
+   height: 30px;
+   text-align: center;
+   font-size: 20px;
+   padding-top: 5px;
+}
