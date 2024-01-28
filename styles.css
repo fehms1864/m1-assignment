@@ -131,6 +131,19 @@ select {
     font-size: 20px;
 }
 
+main #album {
+    text-align: center;
+}
+
+main #album #photo img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    padding: 1rem 0;
+}
+
 footer {
    height: 30px;
    text-align: center;
