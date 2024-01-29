@@ -135,13 +135,39 @@ main #album {
     text-align: center;
 }
 
-main #album #photo img {
+main #album #photo {
     display: inline-block;
+    position: relative;
+}
+
+main #album #photo img {
     vertical-align: middle;
     width: 500px;
     height: 400px;
     text-align: center;
+    padding: 1rem 0 0;
+}
+
+main #album #photo .caption {
+    text-align: center;
+}
+
+main #album #photo .description {
+    width: 500px;
+    text-align: center;
+    visibility: hidden;
     padding: 1rem 0;
+    position: absolute;
+    bottom: 13rem;
+    display: block;
+}
+
+main #album #photo img:hover {
+    cursor: pointer;
+}
+main #album #photo:hover .description {
+    background-color: rgba(249, 255, 255, 0.599);
+    visibility: visible;
 }
 
 footer {
