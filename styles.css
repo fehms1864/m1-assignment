@@ -153,13 +153,12 @@ main #album #photo .caption {
 }
 
 main #album #photo .description {
-    width: 500px;
-    text-align: center;
+    width: 250px;
     visibility: hidden;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     position: absolute;
+    left: 10rem;
     bottom: 13rem;
-    display: block;
 }
 
 main #album #photo img:hover {
@@ -168,6 +167,7 @@ main #album #photo img:hover {
 main #album #photo:hover .description {
     background-color: rgba(249, 255, 255, 0.599);
     visibility: visible;
+    cursor: pointer;
 }
 
 footer {
