@@ -30,8 +30,6 @@ function galleryPhotos() {
         image = openList + photos[i] + caption + description + closeList; //Assemble image element from array with list elements and store in a variable
         
         imageList.push(image); //Store(push) the assembled list codes into an array
-        // imageList.push(caption);
-        // imageList.push(description);
     }
 
     //Display all six image codes store in the array
