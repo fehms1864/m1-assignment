@@ -133,6 +133,12 @@ select {
 
 main #album {
     text-align: center;
+    padding: 0;
+}
+
+main #album li {
+    padding: 0;
+    margin: 0 3rem;
 }
 
 main #album #photo {
@@ -157,7 +163,7 @@ main #album #photo .description {
     visibility: hidden;
     padding: 1rem 1rem;
     position: absolute;
-    left: 10rem;
+    left: 7rem;
     bottom: 13rem;
 }
 
@@ -175,4 +181,38 @@ footer {
    text-align: center;
    font-size: 20px;
    padding-top: 5px;
+}
+
+#infobox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    margin-top: -150px;
+    margin-left: -200px;
+    padding: 5px 20px 70px;
+    border-radius: 10px;
+    background-color: #000000d8;
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+}
+
+.infoboxheading {
+    font-size: 24px;
+    margin-bottom: 2rem;
+    text-align: left;
+    color: white;
+}
+
+.infoboxtext {
+    font-size: 16px;
+    margin-bottom: 5rem;
+    text-align: left;
+}
+
+.infoboxtextlink {
+    color: #fdef90;
+    cursor: pointer;
+    margin-bottom: 5rem;
 }
